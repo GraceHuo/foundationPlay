@@ -52,7 +52,7 @@
     <section class="top-bar-section">
       <!-- Left Nav Section -->
       <ul class="left">
-        <li class="active"><a href="index.html">About Us</a></li>
+        <li><a href="index.html">About Us</a></li>
         <li class="divider"></li>
         <li class="has-dropdown">
           <a href="design.html">Design Principles</a>
@@ -63,7 +63,7 @@
           </ul>
         </li>
         <li class="divider"></li>
-        <li><a href="submit.html">Submission</a></li>
+        <li class="active"><a href="submit.html">Submission</a></li>
         <li class="divider"></li>
       </ul>
 
@@ -94,49 +94,90 @@
 
 <div class="row">
   <div class="column small-12">
-    <h1> About Us</h1>
+    <h1> Gallery Submission</h1>
   </div><!-- end column -->
 </div><!-- end row -->
+
 
 <div class="row">
   <div class="column small-12">
-    <div class="my-cool-slider">
-      <div><img src="images/5.jpg" alt=""></div>
-      <div><img src="images/6.jpg" alt=""></div>
-      <div><img src="images/7.jpg" alt=""></div>
-    </div>
+
+    <form data-abide action="FormToEmail.php" method="post" enctype="multipart/form-data">
+      <div class="row">
+        <fieldset>
+          <legend>
+            Designer Information
+          </legend>
+          <div class="small-12 medium-9 column">
+            <div> <!--Wrap the label and error message in a division. Add required to the input-->
+              <label> First Name
+                <small>required</small>
+                <input type="text" name="First" placeholder="first name" required>
+              </label>
+              <small class="error">First name is required.</small>
+            </div>
+
+            <div> <!--Wrap the label and error message in a division. Add required to the input-->
+              <label> Last Name
+                <small>required</small>
+                <input type="text" name="Last" placeholder="last name" required>
+              </label>
+              <small class="error">First name is required.</small>
+            </div>
+
+            <label> Email
+              <input type="text" name="Email" placeholder="email address">
+            </label>
+
+            <label> Cell Phone
+              <input type="text" name="Phone" placeholder="phone number">
+            </label>
+          </div>
+        </fieldset>
+      </div>
+
+      <div class="row">
+        <fieldset>
+          <legend>
+            Web Site
+          </legend>
+          <div class="small-12 medium-9 column">
+
+            <div> <!--Wrap the label and error message in a division. Add required to the input-->
+              <label> Web Site URL
+                <small>required</small>
+                <input type="text" name="URL" placeholder="http://" required>
+              </label>
+              <small class="error">URL is required.</small>
+            </div>
+
+            <label> <input type="checkbox" name="Alignment"> Alignment</label>
+            <label><input type="checkbox" name="Chunking"> Chunking</label>
+            <label><input type="checkbox" name="Consistency"> Consistency</label>
+            <label><input type="checkbox" name="Repitition"> Repitition</label>
+
+          </div>
+        </fieldset>
+      </div> <!--end of row-->
+
+      <div class="row">
+        <div class="column small-6 medium-3">
+          <input type="submit" value="Send my Entry" class="button success round expand">
+        </div>
+        <div class="column small-6 medium-9">
+          <a class="button radius" href="index.html">Cancel</a>
+        </div>
+      </div>
+
+      <input type="hidden" name="subject" value="Submission from Foundation Web Site">
+      <input type="hidden" name="redirect" value="thanks.html">
+
+    </form>
+
+
   </div><!-- end column -->
 </div><!-- end row -->
 
-
-
-
-
-<div class="row">
-  <div class="column small-12 medium-6">
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-      <code>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </code>
-      It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-  </div><!-- end column -->
-  <div class="column small-12 medium-6">
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-  </div><!-- end column -->
-</div><!-- end row -->
-
-<div class="row">
-  <div class="column small-12 medium-6">
-    <p>Grace says that...</p>
-    <blockquote>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</blockquote>
-  </div><!-- end column -->
-  <div class="column small-12 medium-6">
-    <ul>
-      <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-      <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-      <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-      <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-    </ul>
-  </div><!-- end column -->
-</div><!-- end row -->
 
 <script src="js/vendor/jquery.js"></script>
 <script src="js/foundation.min.js"></script>
@@ -147,14 +188,14 @@
 <script src="slick/slick.min.js"></script>
 
 <script type="text/javascript">
-  $(document).ready(function(){
-    $('.my-cool-slider').slick({
-      dots: true,
-      autoplay: true,
+  $( document ).ready( function() {
+    $( '.my-cool-slider' ).slick( {
+      dots         : true,
+      autoplay     : true,
       autoplaySpeed: 2000,
-      speed: 400
-    });
-  });
+      speed        : 400
+    } );
+  } );
 </script>
 
 </body>

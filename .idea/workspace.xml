@@ -2,11 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7b88717-90df-4eec-ba6d-1f785f2207d0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/logoS.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/app.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/foundation.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/normalize.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/override.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FormToEmail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/submit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thanks.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/foundation.min.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/foundation.css" afterPath="$PROJECT_DIR$/css/foundation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/override.css" afterPath="$PROJECT_DIR$/css/override.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,43 +33,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+            <state relative-caret-position="1260">
+              <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="foundation.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/foundation.css">
+      <file leaf-file-name="submit.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/submit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="2848" column="8" lean-forward="false" selection-start-line="2848" selection-start-column="4" selection-end-line="2848" selection-end-column="8" />
-              <folding>
-                <element signature="e#40407#40732#2" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="override.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/override.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/app.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="75">
+              <caret line="97" column="27" lean-forward="false" selection-start-line="97" selection-start-column="27" selection-end-line="97" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -90,10 +80,18 @@
       <find>font-family: &quot;Helvetica Neue&quot;, Helvetica, Roboto, Arial, sans-serif;</find>
       <find>n</find>
       <find>font</find>
+      <find>2ba</find>
+      <find>success</find>
+      <find>#cf2a0e</find>
+      <find>line-height: in</find>
+      <find>#0078a0</find>
+      <find>about</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>font-family: 'Josefin Sans', sans-serif;</replace>
+      <replace>#289f9f</replace>
+      <replace>#aa302a</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/css</dir>
@@ -106,10 +104,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/override.css" />
-        <option value="$PROJECT_DIR$/css/foundation.css" />
         <option value="$PROJECT_DIR$/css/app.css" />
+        <option value="$PROJECT_DIR$/css/foundation.css" />
+        <option value="$PROJECT_DIR$/css/override.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/submission.html" />
+        <option value="$PROJECT_DIR$/design.html" />
+        <option value="$PROJECT_DIR$/thanks.html" />
+        <option value="$PROJECT_DIR$/FormToEmail.php" />
+        <option value="$PROJECT_DIR$/submit.html" />
       </list>
     </option>
   </component>
@@ -120,10 +123,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="63" />
-    <option name="y" value="470" />
-    <option name="width" value="1311" />
-    <option name="height" value="825" />
+    <option name="x" value="761" />
+    <option name="y" value="365" />
+    <option name="width" value="915" />
+    <option name="height" value="823" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -141,6 +144,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -151,6 +155,38 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="foundationplay" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foundationplay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foundationplay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slick" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foundationplay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foundationplay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slick" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slick.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -181,27 +217,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="foundationplay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="foundationplay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="foundation.css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -212,11 +229,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
@@ -316,18 +335,21 @@
       <workItem from="1494725998012" duration="86000" />
       <workItem from="1494726088025" duration="1069000" />
       <workItem from="1496954479313" duration="4616000" />
-      <workItem from="1497014628556" duration="2762000" />
+      <workItem from="1497014628556" duration="2922000" />
+      <workItem from="1497037303417" duration="4847000" />
+      <workItem from="1497042337142" duration="1090000" />
+      <workItem from="1499639037762" duration="6139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8533000" />
+    <option name="totallyTimeSpent" value="20769000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="63" y="470" width="1311" height="825" extended-state="0" />
+    <frame x="761" y="365" width="915" height="823" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496124" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2360179" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -356,11 +378,106 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="100" column="6" lean-forward="false" selection-start-line="100" selection-start-column="6" selection-end-line="100" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/foundation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86355">
+          <caret line="5757" column="16" lean-forward="false" selection-start-line="5757" selection-start-column="16" selection-end-line="5757" selection-end-column="16" />
+          <folding>
+            <element signature="e#40407#40732#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/override.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="66" column="17" lean-forward="false" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="98" column="72" lean-forward="false" selection-start-line="98" selection-start-column="72" selection-end-line="98" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="100" column="6" lean-forward="false" selection-start-line="100" selection-start-column="6" selection-end-line="100" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/override.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/foundation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86355">
+          <caret line="5757" column="16" lean-forward="false" selection-start-line="5757" selection-start-column="16" selection-end-line="5757" selection-end-column="16" />
+          <folding>
+            <element signature="e#40407#40732#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/foundation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42720">
+          <caret line="2848" column="8" lean-forward="false" selection-start-line="2848" selection-start-column="4" selection-end-line="2848" selection-end-column="8" />
+          <folding>
+            <element signature="e#40407#40732#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/override.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/foundation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#40407#40732#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -384,7 +501,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8325">
           <caret line="555" column="4" lean-forward="false" selection-start-line="555" selection-start-column="4" selection-end-line="555" selection-end-column="4" />
-          <folding />
+          <folding>
+            <element signature="e#40407#40732#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -400,7 +519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -416,7 +534,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#40407#40732#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -435,26 +555,25 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/normalize.css">
+    <entry file="file://$PROJECT_DIR$/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/foundation.min.css">
+    <entry file="file://$PROJECT_DIR$/css/foundation.min.css" />
+    <entry file="file://$PROJECT_DIR$/css/normalize.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="169">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/foundation.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="2848" column="8" lean-forward="false" selection-start-line="2848" selection-start-column="4" selection-end-line="2848" selection-end-column="8" />
+        <state relative-caret-position="86355">
+          <caret line="5757" column="16" lean-forward="false" selection-start-line="5757" selection-start-column="16" selection-end-line="5757" selection-end-column="16" />
           <folding>
             <element signature="e#40407#40732#2" expanded="true" />
           </folding>
@@ -463,13 +582,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/override.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        <state relative-caret-position="990">
+          <caret line="66" column="17" lean-forward="false" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/app.css">
+    <entry file="file://$PROJECT_DIR$/slick/slick.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -477,10 +596,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/slick/slick.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="47" column="37" lean-forward="true" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thanks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="96" column="16" lean-forward="false" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        <state relative-caret-position="1260">
+          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FormToEmail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="85" column="47" lean-forward="true" selection-start-line="85" selection-start-column="47" selection-end-line="85" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/submit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="97" column="27" lean-forward="false" selection-start-line="97" selection-start-column="27" selection-end-line="97" selection-end-column="27" />
           <folding />
         </state>
       </provider>

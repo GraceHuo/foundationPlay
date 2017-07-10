@@ -63,6 +63,9 @@ header ul.social li.youtube a {
   background-image : url(../images/social_youtube.png);
 }
 
+.row h1 {
+  color: #c53831;
+}
 /* --------------------------------- TABLET CSS --------------------------------- */
 @media only screen and (min-width : 40.063em) {
 
